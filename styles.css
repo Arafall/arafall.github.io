@@ -59,13 +59,11 @@ nav a:hover {
 }
 .card figcaption {color: aliceblue;}
 
-
-
 footer {
     background-color: #2B3F29;
     color: aliceblue;
 }
 
-
-
-
+@media screen and (min-width: 576px) {
+    
+}
