@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <nav class="row text-center mx-none">
+            <div class="col">
+                <img src="images/logohollow.png" alt="gregs landscaping" height="120" class="mb-2 p-2">
+            </div>
+            <div class="col-8 m-auto">
+                <a href="index.html#" class="mx-3">Home</a>
+                <a href="#" class="mx-3">Contact</a>
+                <a href="#" class="mx-3">Services</a>
+            </div>
+        </nav>
+
+
+        <section id="contact" class="row m-4 text-center justify-content-center">
+            <header>
+                <h3>Contact Us For An Estimate!</h3>
+            </header>
+            <div class="col-9">
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Email address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control" id="contactPhone" placeholder="Phone number">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="contactMessage" placeholder="Message">
+                    </div>
+                    <button type="submit" class="btn btn-dark px-5">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="my-4 justify-content-center text-center row">
+                <header>
+                    <h4>Services</h3>
+                </header>
+
+                <div class="row">
+                    <div class="card col mx-2" style="width: 9rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <p class="px-none">Hardscape</p>
+                    </div>
+                    <div class="card col mx-2" style="width: 9rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <p class="px-none">Landscape</p>
+                    </div>
+                    <div class="card col mx-2" style="width: 9rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <p class="px-none">Maintenance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="workhistory">
+            <div id="carouselExample" class="carousel slide m-auto">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/porchpath.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/frontyard.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/yardpath.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="mt-2 justify-content-center text-center row">
+                <header>
+                    <h4>Transformations</h4>
+                </header>
+                <div class="card m-3 col-1" style="width: 18rem;">
+                    <img src="images/porchpath.JPG" alt="house porch path" class="before-after before-a before">
+                    <div class="card-body">
+                        <figure>
+                            <figcaption class="blockquote-footer">
+                                Hover to see before
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+
+                <div class="card m-3 col-1" style="width: 18rem;">
+                    <img src="images/yardpath.JPG" alt="yard path" class="before-after before-b before">
+                    <div class="card-body">
+                        <figure>
+                            <figcaption class="blockquote-footer">
+                                Hover to see before
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+
+                <div class="card m-3 col-1" style="width: 18rem;">
+                    <img src="images/frontyard.JPG" alt="front yard" class="before-after before-c before">
+                    <div class="card-body">
+                        <figure>
+                            <figcaption class="blockquote-footer">
+                                Hover to see before
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer id="footer" class="row p-4 mx-none text-center">
+            <div class="col-sm-12 col-md-3 col-lg-4 col-xl-3 mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Greg's Lawncare & Maintenance</h6>
+                <p>
+                    Family-owned and committed to quality, we offer dependable lawn care, maintenance, and
+                    hardscaping services designed to beautify your outdoor spaces. From weekly mowing to custom
+                    patios and stonework, we treat every yard like our own. Contact us today for a free
+                    estimate!
+                </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                <p><a href="#">PO Box 98 Kirbyville, MO 65769</a></p>
+                <p><a href="mailto:gregslandscapeandmaintenance@gmail.com">gregslandscapeandmaintenance@gmail.com</a>
+                </p>
+                <p><a href="tel:9375051037">(937) 505-1037</a></p>
+            </div>
+        </footer>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

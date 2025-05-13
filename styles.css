@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-color: #79B473;
+}
+
+
+/* navigation styles */
+nav {
+    background-color: #2B3F29;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-width: 480px;
+}
+nav img {
+    width: 120px;
+}
+nav a {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover {
+    text-decoration: underline;
+    color:#6B9982;
+}
+
+/* contact styles */
+#contact {
+    min-width: 300px;
+}
+
+/* services styles */
+#services {
+    min-width: 400px;
+}
+
+/* work history styles */
+.before-after {
+    width: 15rem;
+    height: 10rem;
+    align-self: center;
+}
+.before {
+    width: 15rem;
+    height: 10rem;
+    align-self: center;
+}
+.before-a:hover {content: url("images/porchpathbefore.JPG");}
+.before-b:hover {content: url("images/yardpathbefore.JPG");}
+.before-c:hover {content: url("images/frontyardbefore.JPG");}
+
+.card {
+    background-color:#608E5B;
+}
+.card figcaption {color: aliceblue;}
+
+
+
+footer {
+    background-color: #2B3F29;
+    color: aliceblue;
+}
+
+
+
+
